@@ -1,4 +1,6 @@
-![Dusai's GitHub stats](https://github-readme-stats.vercel.app/api?username=supbose)![Dusai's GitHub stats](https://github-readme-stats.vercel.app/api?username=supbose&show_icons=true&theme=radical)
+# Hello there 👋
+
+![Dusai's GitHub stats](https://github-readme-stats.vercel.app/api?username=supbose&show_icons=true&theme=radical)
 
 
 <!--
