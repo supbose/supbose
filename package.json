@@ -1,0 +1,8 @@
+{
+	"name": "supbose",
+	"version": "0.0.1",
+	"scripts": {	
+		"pages": "bash pages.sh"	
+	},
+	"license": "MIT"	
+}
