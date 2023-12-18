@@ -11,7 +11,8 @@ git config --global user.email "yshxw@qq.com"
 
 
 
-push_addr=`git remote get-url --push origin` # git提交地址
+push_addr= git@github.com:supbose/supbose.git
+# `git remote get-url --push origin` # git提交地址
 commit_info=`git describe --all --always --long`
 push_branch=pages # 推送的分支
 
