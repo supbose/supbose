@@ -10,7 +10,7 @@ git config --global user.name "supbose"
 git config --global user.email "yshxw@qq.com"
 
 
-githubUrl=https://supbose:${Ac_TOKEN}@github.com/supbose/supbose.git
+githubUrl=https://supbose:${AC_TOKEN}@github.com/supbose/supbose.git
 # push_addr= git@github.com:supbose/supbose.git
 # `git remote get-url --push origin` # git提交地址
 commit_info=`git describe --all --always --long`
