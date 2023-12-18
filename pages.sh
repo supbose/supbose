@@ -10,8 +10,8 @@ git config --global user.name "supbose"
 git config --global user.email "yshxw@qq.com"
 
 
-
-push_addr= git@github.com:supbose/supbose.git
+githubUrl=https://supbose:${Ac_TOKEN}@github.com/supbose/supbose.git
+# push_addr= git@github.com:supbose/supbose.git
 # `git remote get-url --push origin` # git提交地址
 commit_info=`git describe --all --always --long`
 push_branch=pages # 推送的分支
@@ -19,7 +19,7 @@ push_branch=pages # 推送的分支
 git init
 git add -A
 git commit -m "deploy, $commit_info"
-git push -f $push_addr HEAD:$push_branch
+git push -f $githubUrl HEAD:$push_branch
 
 
 
