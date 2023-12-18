@@ -6,9 +6,11 @@ set -e
 cur_dateTime="date +%Y-%m-%d,%H:%m:%s"
 
 echo "${cur_dateTime}" > GithubPages
+git config --global user.name "supbose"
+git config --global user.email "yshxw@qq.com"
 
 if [ -z "$Ac_TOKEN" ]; then
-  msg='mian to pages'
+  msg='main to pages'
   githubUrl=git@github.com:supbose/supbose.git
 else
   msg='来自github actions的自动部署'
@@ -19,4 +21,4 @@ fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl mian:pages
+git push -f $githubUrl main:pages
