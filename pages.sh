@@ -19,5 +19,7 @@ git init
 git add -A
 git commit -m "${msg}"
 # git push -f $githubUrl
-git push --all
+# git push --all
+git remote add origin https://supbose:${Ac_TOKEN}@github.com/supbose/supbose.git
+git push -u origin master
 
