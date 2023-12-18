@@ -10,8 +10,8 @@ git config --global user.name "supbose"
 git config --global user.email "yshxw@qq.com"
 
 
-githubUrl=https://github.com/supbose/supbose.git
-# https://supbose:${AC_TOKEN}@github.com/supbose/supbose.git
+# githubUrl=https://github.com/supbose/supbose.git
+githubUrl=https://supbose:${secrets.AC_TOKEN}@github.com/supbose/supbose.git
 commit_info=`git describe --all --always --long`
 push_branch=pages # 推送的分支
 
