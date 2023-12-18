@@ -21,4 +21,4 @@ fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl main:pages
+git push -f $githubUrl master:pages
