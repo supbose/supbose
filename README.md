@@ -1,7 +1,5 @@
 # Hello there 👋
-
-<p>
-  
+<p>  
   <img alt="php" src="https://img.shields.io/badge/php-5.3%20--%207.4-blue?style=flat-square&logo=php&logoColor=white" />
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
   <img alt="Webpack" src="https://img.shields.io/badge/-Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=white" /> 
@@ -36,3 +34,5 @@
 <!--END_SECTION:waka-->
 
 [![CodeTime badge](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D17153%26project%3D%26in%3D0)](https://codetime.dev)
+
+[![CodeTime badge](https://img.shields.io/endpoint?style=plastic&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D17153%26project%3D%26in%3D0)](https://codetime.dev)
