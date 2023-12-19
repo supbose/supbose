@@ -7,22 +7,34 @@ cur_dateTime="date +%Y-%m-%d,%H:%m:%s"
 
 echo "${cur_dateTime}" > GithubPages
 
-if [ -z "$GITHUB_TOKEN" ]; then
-  msg='main to pages'
-  githubUrl=git@github.com:supbose/supbose.git
+
+  msg='来自Aliyun Codeup Flow 的自动部署'
+  githubUrl=https://supbose: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@github.com/supbose/supbose.git
   git config --global user.name "supbose"
   git config --global user.email "yshxw@qq.com"
-else
-  msg='来自github actions的自动部署'
-  githubUrl=https://supbose:${GITHUB_TOKEN}@github.com/supbose/supbose.git
-  git config --global user.name "supbose"
-  git config --global user.email "yshxw@qq.com"
-fi
+
 git init
 git add -A
-git branch
 git commit -m "${msg}"
-git push -f $githubUrl HEAD:pages # 推送到github pages分支
+git push -f $githubUrl # 推送到github分支
+
+
+# if [ -z "$GITHUB_TOKEN" ]; then
+#   msg='main to pages'
+#   githubUrl=git@github.com:supbose/supbose.git
+#   git config --global user.name "supbose"
+#   git config --global user.email "yshxw@qq.com"
+# else
+#   msg='来自github actions的自动部署'
+#   githubUrl=https://supbose:${GITHUB_TOKEN}@github.com/supbose/supbose.git
+#   git config --global user.name "supbose"
+#   git config --global user.email "yshxw@qq.com"
+# fi
+# git init
+# git add -A
+# git branch
+# git commit -m "${msg}"
+# git push -f $githubUrl HEAD:pages # 推送到github pages分支
 
 
 
