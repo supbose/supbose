@@ -16,7 +16,9 @@ echo "${cur_dateTime}" > GithubPages
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl HEAD:pages # 推送到github分支
+git remote set-url origin $githubUrl
+git push --all
+# git push -f $githubUrl HEAD:pages # 推送到github分支
 
 
 # if [ -z "$GITHUB_TOKEN" ]; then
