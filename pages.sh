@@ -22,7 +22,7 @@ git init
 git add -A
 git branch
 git commit -m "${msg}"
-git push -f $githubUrl main:pages # 推送到github pages分支
+git push -f $githubUrl HEAD:pages # 推送到github pages分支
 
 
 
