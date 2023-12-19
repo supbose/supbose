@@ -1,13 +1,6 @@
 ## 利用GitHub Actions每天定时写入日志 ##
 
 name: pages
-
-# 两种触发方式：一、push代码，二、每天国际标准时间23点（北京时间+8即早上7点）运行
-# on:
-#   push:
-#   schedule:
-#     - cron: "0 23 * * *" # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows#scheduled-events-schedule
-
 on:
   push:
   schedule:
@@ -24,5 +17,4 @@ jobs:
           persist-credentials: false
         env: 
           GITHUB_TOKEN: ${{ secrets.AC_TOKENS }}      
-        run: ls # yarn && yarn pages # 运行目录是仓库根目录
-        
+        # run: ls # yarn && yarn pages # 运行目录是仓库根目录
