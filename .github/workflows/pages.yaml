@@ -19,5 +19,7 @@ jobs:
     steps:
       - name: "Checkout codes" # 步骤一，获取仓库代码
         uses: actions/checkout@v1
-      - name: "Run Pages" # 步骤二，执行sh命令文件
+      - name: Build-and-gh-pages # 步骤3
+        env: 
+          GITHUB_TOKEN: ${{ secrets.AC_TOKENS }}      
         run: yarn && yarn pages # 运行目录是仓库根目录
