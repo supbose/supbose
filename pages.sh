@@ -8,10 +8,7 @@ cur_dateTime="date +%Y-%m-%d,%H:%m:%s"
 echo "${cur_dateTime}" > GithubPages
 git config --global user.name "supbose"
 git config --global user.email "yshxw@qq.com"
-
-
-# githubUrl=https://github.com/supbose/supbose.git
-githubUrl=https://${GITHUB_TOKEN}@github.com/supbose/supbose.git
+githubUrl=https://supbose:${GITHUB_TOKEN}@github.com/supbose/supbose.git
 commit_info=`git describe --all --always --long`
 push_branch=pages # 推送的分支
 
