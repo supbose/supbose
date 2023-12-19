@@ -10,6 +10,8 @@ echo "${cur_dateTime}" > GithubPages
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='main to pages'
   githubUrl=git@github.com:supbose/supbose.git
+  git config --global user.name "supbose"
+  git config --global user.email "yshxw@qq.com"
 else
   msg='来自github actions的自动部署'
   githubUrl=https://supbose:${GITHUB_TOKEN}@github.com/supbose/supbose.git
