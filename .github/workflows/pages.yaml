@@ -9,17 +9,20 @@ name: pages
 #     - cron: "0 23 * * *" # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows#scheduled-events-schedule
 
 on:
-  # push:
+  push:
   schedule:
-    - cron: '0 0 0 0 1' # 每5分钟一次，测试用
+    - cron: '0 23 * * *' # 每5分钟一次，测试用
 
 jobs:
   bot:
     runs-on: ubuntu-latest # 运行环境为最新版的Ubuntu
-    steps:
-      - name: "Checkout codes" # 步骤一，获取仓库代码
-        uses: actions/checkout@v1
-      - name: Build-and-gh-pages # 步骤3
+    steps:      
+      # 拉取代码
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
         env: 
           GITHUB_TOKEN: ${{ secrets.AC_TOKENS }}      
-        run: yarn && yarn pages # 运行目录是仓库根目录
+        run: ls # yarn && yarn pages # 运行目录是仓库根目录
+        
