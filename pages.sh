@@ -9,7 +9,7 @@ echo "${cur_dateTime}" > GithubPages
 
 
   msg='来自Aliyun Codeup Flow 的自动部署'
-  githubUrl=https://yshxw@qq.com:${GITHUB_TOKEN}@github.com/supbose/supbose.git
+  githubUrl=https://${GITHUB_TOKEN}@github.com/supbose/supbose.git
   git config --global user.name "supbose"
   git config --global user.email "yshxw@qq.com"
 
