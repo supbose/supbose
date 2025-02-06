@@ -1,4 +1,12 @@
-# Hello there 👋
+<h1 align="center">Hi 👋</h1>
+<h3 align="center">Welcome To My Github ~</h3>
+</br>
+
+## Github Stats 🌐
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=supbose&count_private=true&show_icons=true&icon_color=CE1D2D&text_color=718096&hide_border=true&hide_title=true" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=supbose&card_width=230&layout=compact&langs_count=10&hide_border=true&hide=Assembly,HTML&custom_title=Most%20Used%20Languages%20~" />
+
+
 <p>  
   <img alt="php" src="https://img.shields.io/badge/php-5.3%20--%207.4-blue?style=flat-square&logo=php&logoColor=white" />
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
@@ -25,9 +33,6 @@
   <img alt="d3js" src="https://img.shields.io/badge/-D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white" />
   <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" />
   <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
-  <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
+  <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" /> 
+  <img href="https://codetime.dev" alt="CodeTime Badge" src="https://img.shields.io/endpoint?style=flat-square&color=222&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D17153%26project%3D%26in=0">
 </p>
-
-![Dusai's GitHub stats](https://github-readme-stats.vercel.app/api?username=supbose&show_icons=true&theme=radical)
-
-[![CodeTime badge](https://img.shields.io/endpoint?style=plastic&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D17153%26project%3D%26in%3D0)](https://codetime.dev)
